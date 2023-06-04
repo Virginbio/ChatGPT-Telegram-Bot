@@ -54,7 +54,7 @@ completion = openai.Completion()
 #Command handlers#
 ##################
 def start(bot, update):
-    """Send a message when the command /start is issued."""
+    """As an admin, you don't currently have access to any groups that include kibble, please click the button below to add Cheeky to a group.."""
     global chat_log
     global qcache
     global cache
